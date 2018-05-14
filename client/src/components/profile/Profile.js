@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 
 import SignIn from "../sign-in/Sign-in";
 import { updateProfiles, getProfiles } from "../../actions/sampleactions";
+import "../../assets/styles/testing.css";
 
 class Profile extends React.Component {
     componentWillMount() {
