@@ -1,0 +1,20 @@
+{
+    "name": "house2-react-express",
+    "version": "1.0.0",
+    "scripts": {
+        "client": "cd client && yarn start",
+        "server": "nodemon server.js",
+        "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+    },
+    "dependencies": {
+        "express": "^4.16.2",
+        "firebase": "^5.0.1",
+        "re-base": "^3.2.2",
+        "react-redux": "^5.0.7",
+        "redux": "^4.0.0",
+        "redux-thunk": "^2.2.0"
+    },
+    "devDependencies": {
+        "concurrently": "^3.5.0"
+    }
+}
